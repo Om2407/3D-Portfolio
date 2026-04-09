@@ -22,109 +22,49 @@ import {
   project2,
   project3,
   project4,
+  project5,
+  initialLetterLogo,
 } from "../assets";
 
-const initialLetterIcon = "O";
+const initialLetterIcon = initialLetterLogo;
 const remainingLetters = "m Gupta";
-
-export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "skills",
-    title: "Skills",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Frontend Developer",
-    icon: web,
-  },
-  {
-    title: "Backend Developer",
-    icon: mobile,
-  },
-  {
-    title: "Full Stack Developer",
-    icon: backend,
-  },
-];
-
-const technologies = [
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Express JS",
-    icon: express,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Next JS",
-    icon: nextjs,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-];
 
 export const socialLinks = {
   github: "https://github.com/Om2407",
-  linkedin: "https://www.linkedin.com/in/om-gupta-2407/",
+  linkedin: "https://www.linkedin.com/in/om-gupta-4a3549294/",
   resume: "https://drive.google.com/file/d/1LbjsjHaKKvuugDr0yxaTbg6PONPc5n0z/view?usp=drivesdk",
 };
+
+export const navLinks = [
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "skills", title: "Skills" },
+  { id: "contact", title: "Contact" },
+];
+
+const services = [
+  { title: "Frontend Developer", icon: web },
+  { title: "Backend Developer", icon: mobile },
+  { title: "Full Stack Developer", icon: backend },
+];
+
+const technologies = [
+  { name: "React JS", icon: reactjs },
+  { name: "JavaScript", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+  { name: "Redux Toolkit", icon: redux },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Node JS", icon: nodejs },
+  { name: "Express JS", icon: express },
+  { name: "MongoDB", icon: mongodb },
+  { name: "Next JS", icon: nextjs },
+  { name: "Three JS", icon: threejs },
+  { name: "git", icon: git },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "Java", icon: java },
+];
+
 const projects = [
   {
     name: "AI-Powered LMS",
@@ -137,26 +77,11 @@ const projects = [
       "Redux Toolkit state management reducing page load times by 30%.",
     ],
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "gemini-ai",
-        color: "purple-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "redux", color: "orange-text-gradient" },
+      { name: "gemini-ai", color: "purple-text-gradient" },
     ],
     image: project1,
     source_code_link: "https://github.com/Om2407/LMS-Platform",
@@ -173,26 +98,11 @@ const projects = [
       "TypeScript + Vite with scalable reusable component architecture.",
     ],
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "three.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "gemini-api",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "purple-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "typescript", color: "green-text-gradient" },
+      { name: "three.js", color: "pink-text-gradient" },
+      { name: "gemini-api", color: "orange-text-gradient" },
+      { name: "tailwind", color: "purple-text-gradient" },
     ],
     image: project2,
     source_code_link: "https://github.com/Om2407/ProjectAI",
@@ -209,26 +119,11 @@ const projects = [
       "Inngest for async background jobs · TanStack Query for data caching · CodeRabbit for PR reviews.",
     ],
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "clerk",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "stream",
-        color: "purple-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "clerk", color: "orange-text-gradient" },
+      { name: "stream", color: "purple-text-gradient" },
     ],
     image: project3,
     source_code_link: "https://github.com/Om2407/Interview-Platform",
@@ -245,35 +140,40 @@ const projects = [
       "Charity directory with search & filter — 10%+ of every subscription auto-contributed.",
     ],
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "razorpay",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "jwt",
-        color: "purple-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "razorpay", color: "orange-text-gradient" },
+      { name: "jwt", color: "purple-text-gradient" },
     ],
     image: project4,
     source_code_link: "https://github.com/Om2407/Project-DH",
     live_link: "https://digitalheroes-omega.vercel.app/",
   },
+  {
+    name: "StyleSync",
+    description:
+      "A web-based design system extractor that scrapes any URL and generates a Figma-like dashboard with editable color palettes, typography scales, and spacing tokens.",
+    features: [
+      "URL scraping engine extracts CSS design tokens — colors, fonts, spacing — from any website.",
+      "Interactive token editor with real-time color picker, typography inspector, and drag-to-adjust spacing visualizer.",
+      "Lock & Version system: freeze specific tokens to prevent override on re-scraping, with full edit history.",
+      "Live component preview grid (buttons, cards, inputs, type scale) consuming CSS custom properties — updates in <100ms.",
+    ],
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "postgresql", color: "green-text-gradient" },
+      { name: "puppeteer", color: "pink-text-gradient" },
+      { name: "tailwind", color: "purple-text-gradient" },
+    ],
+    image: project5,
+    source_code_link: "https://github.com/Om2407/Stylesync",
+    live_link: "https://stylesync-tawny.vercel.app/",
+  },
 ];
 
 const experiences = [];
-
 const testimonials = [];
 
 export {

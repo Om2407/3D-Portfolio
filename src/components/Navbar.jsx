@@ -4,7 +4,6 @@ import Link from "next/link";
 import {
   initialLetterIcon,
   navLinks,
-  remainingLetters,
   socialLinks,
 } from "@/constants/constants";
 import { styles } from "@/styles";
@@ -79,16 +78,24 @@ const Navbar = memo(function Navbar() {
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
 
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2" onClick={handleLogoClick}>
-          <div className="w-10 h-10 flex items-center justify-center rounded-full bg-secondary">
-            <span className="text-white font-bold text-lg">
-              {initialLetterIcon}
-            </span>
-          </div>
-          <p className="text-white text-[29px] font-bold cursor-pointer relative right-2">
-            {remainingLetters}
-          </p>
-        </Link>
+      <Link href="/" className="flex items-center gap-2" onClick={handleLogoClick}>
+  {/* <div className="w-10 h-10 rounded-full bg-[#915EFF] overflow-hidden flex items-center justify-center">
+    <Image
+      src={initialLetterIcon}
+      alt="logo"
+      width={40}
+      height={40}
+      className="w-10 h-10 object-cover"
+    />
+  </div> */}
+  <div className="w-10 h-10 rounded-full bg-[#915EFF] flex items-center justify-center">
+  <span className="text-white font-bold text-xl">O</span>
+</div>
+ 
+  <p className="text-white text-[29px] font-bold cursor-pointer">
+    Om Gupta
+  </p>
+</Link>
 
         {/* Desktop Nav */}
         <ul className="list-none hidden sm:flex flex-row gap-10 items-center">
