@@ -147,8 +147,8 @@ const projects = [
       { name: "jwt", color: "purple-text-gradient" },
     ],
     image: project4,
-    source_code_link: "https://github.com/Om2407/Project-DH",
-    live_link: "https://digitalheroes-omega.vercel.app/",
+    source_code_link: "https://github.com/Om2407/Golf-Charity-Subscription",
+    live_link: "https://golf-charity-subcription-8gwf.vercel.app/",
   },
   {
     name: "StyleSync",
