@@ -3,8 +3,9 @@ import project2 from "./project2.jpeg";
 import project3 from "./project3.jpeg";
 import project4 from "./project4.jpeg";
 import project5 from "./project5.png";
+import project6 from "./project6.png";
 
-export { project1, project2, project3, project4, project5 };
+export { project1, project2, project3, project4, project5, project6 };
 import initialLetterLogo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
