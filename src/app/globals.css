@@ -9,6 +9,11 @@
   font-family: "Poppins", sans-serif;
   color-scheme: dark;
   -webkit-tap-highlight-color: transparent;
+  cursor: none !important;
+}
+
+a, button {
+  cursor: none !important;
 }
 
 .hash-span {

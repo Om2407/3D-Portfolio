@@ -3,6 +3,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google";
 import Script from "next/script";
 import SmoothScroll from "@/components/SmoothScroll";
+import { CustomCursor } from "@/components";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -41,6 +42,7 @@ gtag('config', 'G-NRS9PX9R2K');`}
       </Script>
       <SmoothScroll />
       <body>
+        <CustomCursor />
         <Toaster
           position="bottom-right"
           toastOptions={{

@@ -13,7 +13,6 @@ const RocketIntro = ({ onComplete }) => {
   const animationRef = useRef(null);
   const startTimeRef = useRef(null);
   const [, forceUpdate] = useState(0);
-
   // Generate smoke trail particle
   const generateSmokeParticle = useCallback((rocketBottomY) => {
     return {
