@@ -23,6 +23,7 @@ import {
   project3,
   project4,
   project5,
+  project6,
   initialLetterLogo,
 } from "../assets";
 
@@ -170,6 +171,27 @@ const projects = [
     image: project5,
     source_code_link: "https://github.com/Om2407/Stylesync",
     live_link: "https://stylesync-tawny.vercel.app/",
+  },
+  {
+    name: "American Dream Mall — DigiDeck",
+    description:
+      "A cinematic full-screen Digideck for America's largest mall, built as a live AI-powered pitch tool for tenants, sponsors & event organizers.",
+    features: [
+      "8 immersive full-screen slides: Hero, Scale, Retail, Entertainment, Events, Sponsorship, Lifestyle & Contact.",
+      "Three.js 3D globe + particles, Framer Motion cinematic transitions, Ken Burns background & film grain FX.",
+      "Gemini AI 'Build My Pitch' — real-time personalized pitch generator for each audience segment.",
+      "Audience switcher (Tenant / Sponsor / Event) with context-aware content across all slides.",
+    ],
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "three.js", color: "green-text-gradient" },
+      { name: "framer-motion", color: "pink-text-gradient" },
+      { name: "gemini-ai", color: "orange-text-gradient" },
+      { name: "typescript", color: "purple-text-gradient" },
+    ],
+    image: project6,
+    source_code_link: "https://github.com/Om2407/Liat.AI-DigiDeck",
+    live_link: "https://american-dream-mall-om.vercel.app",
   },
 ];
 
