@@ -24,6 +24,7 @@ import {
   project4,
   project5,
   project6,
+  project7,
   initialLetterLogo,
 } from "../assets";
 
@@ -192,6 +193,26 @@ const projects = [
     image: project6,
     source_code_link: "https://github.com/Om2407/Liat.AI-DigiDeck",
     live_link: "https://american-dream-mall-om.vercel.app",
+  },
+  {
+    name: "Smart Leads Dashboard",
+    description:
+      "A full-stack MERN leads management system with JWT auth, RBAC, advanced filtering, CSV export, and dark mode.",
+    features: [
+      "JWT Authentication with Role-Based Access Control (Admin/Sales).",
+      "Leads CRUD with advanced filtering, debounced search, and pagination.",
+      "CSV export, dark mode, and Docker support.",
+    ],
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "node.js", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "typescript", color: "orange-text-gradient" },
+      { name: "docker", color: "purple-text-gradient" },
+    ],
+    image: project7,
+    source_code_link: "https://github.com/Om2407/Smart-leads",
+    live_link: "https://smart-leads-omgupta.vercel.app",
   },
 ];
 
